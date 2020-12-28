@@ -1,0 +1,19 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: HTML &CSS/Sass
+  - item: Python
+
+frameworks:
+  - item: Node
+  - item: ReactJs
+  - item: VueJs
+
+tools:
+  - item: Git & Github
+  - item: Postman
+  - item: MongoDB
+
+design:
+  - item: Adobe XD
+  - item: InVision
+  - item: Photoshop

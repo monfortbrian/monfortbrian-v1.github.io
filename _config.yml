@@ -1,0 +1,39 @@
+# Site settings
+name: Brian N.
+title: Monfort N. Brian .. Full Stack Developer
+
+baseurl: ''
+email: monfortbrian@gmail.com
+logo: /img/emojis/technologist.png
+
+social:
+  - title: email
+    url: mailto:monfortbrian@gmail.com
+  - title: twitter
+    url: https://twitter.com/BrianNkuru
+  - title: github
+    url: https://github.com/monfortbrian
+  - title: linkedin
+    url: https://www.linkedin.com/in/monfort-n-brian-319237168/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
